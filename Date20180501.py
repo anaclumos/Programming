@@ -14,8 +14,6 @@ def insertionSort(array):
 
 def getMedianOf(array):
 	size = int(len(array))
-	if size == 1:
-		return array[0]
 	if size%2==1:
 		return array[int(size/2)]
 	return (array[int(size/2)-1]+array[int(size/2)])/2
