@@ -1,6 +1,8 @@
 '''
 Developed by Sunghyun Cho on 1 May 2018
 
+Microsoft University Student Interview Question from Mailprogramming.com
+
 Find the median of the array everytime when new integer is added.
 '''
 def insertionSort(array):
