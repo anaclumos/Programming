@@ -7,15 +7,21 @@ ex) [1, 2, 3, 4, 5] - [120, 60, 40, 30, 24]
 '''
 
 array = [1, 2, 3, 4, 5]
-result = []
-for element in array:
-	result.append(1)
 
-for a in range(len(array)):
-	for b in range(len(array)):
-		if a==b:
-			continue
-		else:
-			result[b] *= array[a]
+result1 = []
+result2 = []
+final = []
+for member in array:
+	result1.append(1)
+	result2.append(1)
 
-print(result)
+for x in range(1, len(array)):
+	result1[x] = result1[x-1] * array[x-1]
+
+for x in range(len(array)-2, -1, -1):
+	result2[x] = result2[x+1] * array[x+1]
+
+for x in range(len(array)):
+	final.append(result1[x]*result2[x])
+
+print(final)
