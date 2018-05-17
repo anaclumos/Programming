@@ -12,16 +12,16 @@ result1 = []
 result2 = []
 final = []
 for member in array:
-	result1.append(1)
-	result2.append(1)
+    result1.append(1)
+    result2.append(1)
 
 for x in range(1, len(array)):
-	result1[x] = result1[x-1] * array[x-1]
+    result1[x] = result1[x-1] * array[x-1]
 
 for x in range(len(array)-2, -1, -1):
-	result2[x] = result2[x+1] * array[x+1]
+    result2[x] = result2[x+1] * array[x+1]
 
 for x in range(len(array)):
-	final.append(result1[x]*result2[x])
+    final.append(result1[x]*result2[x])
 
 print(final)

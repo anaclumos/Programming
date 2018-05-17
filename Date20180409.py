@@ -15,17 +15,17 @@ Output: 9 // 2 + 4 + (-2) + (-3) + 8
 '''
 
 def findBiggestSum(array):
-	print(array)
-	maxSum = array[0]
-	current = array[0]
-	for x in range(1,len(array)):
-		if array[x] > current and current < 0:
-			current = array[x]
-		else:
-			current += array[x]
-		if maxSum < current:
-			maxSum = current
-	return maxSum
-	
+    print(array)
+    maxSum = array[0]
+    current = array[0]
+    for x in range(1,len(array)):
+        if array[x] > current and current < 0:
+            current = array[x]
+        else:
+            current += array[x]
+        if maxSum < current:
+            maxSum = current
+    return maxSum
+
 array = [-1, 3, -1, 5]
 print(findBiggestSum(array))

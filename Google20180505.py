@@ -14,11 +14,11 @@ input: [0, 1, 2, 3, 4] / K = 1
 output: [1, 2, 3, 4, 0]
 '''
 def pull(array, k):
-	result = []
-	r = len(array)
-	for x in range(r):
-		result.append(array[(x+k)%r])
-	return result
+    result = []
+    r = len(array)
+    for x in range(r):
+        result.append(array[(x+k)%r])
+    return result
 
 line = input("\nEnter Array: ")
 array = [int(x) for x in line.split()]

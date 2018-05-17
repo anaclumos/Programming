@@ -13,26 +13,25 @@ output: 3 // "aaa", "ak", "ka"
 '''
 
 class Tree():
-	def __init__(self, string, content, parent):
-		self.content = content
-		self.childs = []
-		self.parent = parent
-		if len(string)>0:
-			self.childs.append(Tree(string[1:], string[0], self))
-		if len(string)>1 and int(string[0:2])<=26:
-			self.childs.append(Tree(string[2:], string[0:2], self))
-		if len(self.childs)==0 :
-			array.append(self.stringify())
+    def __init__(self, string, content, parent):
+        self.content = content
+        self.childs = []
+        self.parent = parent
+        if len(string)>0:
+            self.childs.append(Tree(string[1:], string[0], self))
+        if len(string)>1 and int(string[0:2])<=26:
+            self.childs.append(Tree(string[2:], string[0:2], self))
+        if len(self.childs)==0 :
+            array.append(self.stringify())
 
-	def stringify(self):
-		string = chr(int(self.content)+96)
-		while(self.parent.content != ""):
-			string = (chr(int(self.parent.content)+96)) + string
-			self = self.parent
-		return string
+    def stringify(self):
+        string = chr(int(self.content)+96)
+        while(self.parent.content != ""):
+            string = (chr(int(self.parent.content)+96)) + string
+            self = self.parent
+        return string
 
 array = []
 tree = Tree(str(input("Input Number: ")), "", "")
 print("answer: " + str(len(array)))
 print(array)
-

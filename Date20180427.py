@@ -13,11 +13,11 @@ print("\nInput: ", userInput)
 result = []
 
 for element in userInput:
-	if element not in result:
-		result.append(element)
-		continue
-	if element in result:
-		result.remove(element)
-		continue
+    if element not in result:
+        result.append(element)
+        continue
+    if element in result:
+        result.remove(element)
+        continue
 
 print("\nResult: ", result, "\n")

@@ -16,17 +16,17 @@ Input : 12421
 '''
 
 def checkPalindrome(number):
-	if number < 0:
-		return False
-	else:
-		dgts = int(math.log10(number))
-		for x in range(int(dgts/2)):
-			if get(number,x,dgts)!=get(number,dgts-x,dgts):
-				return False
-		return True
+    if number < 0:
+        return False
+    else:
+        dgts = int(math.log10(number))
+        for x in range(int(dgts/2)):
+            if get(number,x,dgts)!=get(number,dgts-x,dgts):
+                return False
+        return True
 
 def get(number, nth, digits):
-	return int(number/10**(digits - nth))%10
+    return int(number/10**(digits - nth))%10
 
 print("")
 print("Output:", checkPalindrome(int(input("Input : "))))

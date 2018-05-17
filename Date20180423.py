@@ -14,20 +14,20 @@ Output: ["((()))", "(()())", "()(())", "(())()", "()()()"]
 '''
 
 class Node():
-	def __init__(self, ultimateInput, content):
-		self.content = content
-		self.childs = []
-		if(len(content) == 2 * ultimateInput):
-			array.append(self.content)
-		if(len(content) < 2 * ultimateInput):
-			if(self.opened() < ultimateInput):
-				self.childs.append(Node(ultimateInput, content + '('))
-			if(self.opened() > self.closed()):
-				self.childs.append(Node(ultimateInput, content + ')'))
-	def opened(self):
-		return self.content.count('(')
-	def closed(self):
-		return self.content.count(')')
+    def __init__(self, ultimateInput, content):
+        self.content = content
+        self.childs = []
+        if(len(content) == 2 * ultimateInput):
+            array.append(self.content)
+        if(len(content) < 2 * ultimateInput):
+            if(self.opened() < ultimateInput):
+                self.childs.append(Node(ultimateInput, content + '('))
+            if(self.opened() > self.closed()):
+                self.childs.append(Node(ultimateInput, content + ')'))
+    def opened(self):
+        return self.content.count('(')
+    def closed(self):
+        return self.content.count(')')
 
 print("")
 array = []

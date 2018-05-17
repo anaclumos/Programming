@@ -12,14 +12,14 @@ userInput = int(input("Input Number: "))
 fibonacci = [0, 1]
 
 while fibonacci[-1] < userInput:
-	fibonacci.append(fibonacci[-1]+fibonacci[-2])
+    fibonacci.append(fibonacci[-1]+fibonacci[-2])
 
 fibonacci = fibonacci[:-1]
 
 sum = 0
 
 for member in fibonacci:
-	if member%2==0:
-		sum += member
+    if member%2==0:
+        sum += member
 
 print(sum)

@@ -1,7 +1,7 @@
 '''
 Developed by Sunghyun Cho on 3 May 2018
 
-Google Interview Question from Coderbyte.com!
+Google Interview Question from Coderbyte.com
 
 Using the Python language, have the function ArrayAddition(arr)
 take the array of numbers stored in arr and return the string

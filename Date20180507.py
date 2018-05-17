@@ -9,12 +9,12 @@ Output: [0, 2] // array[0] + array[2] = 8
 '''
 
 def search(array, target):
-	l = len(array)
-	for x in range(l-1):
-		for y in range(x, l):
-			if array[x]+array[y] == target:
-				return [x, y]
-	return "No Answer"
+    l = len(array)
+    for x in range(l-1):
+        for y in range(x, l):
+            if array[x]+array[y] == target:
+                return [x, y]
+    return "No Answer"
 
 line = input("\nEnter array  : ")
 array = [int(x) for x in line.split()]
