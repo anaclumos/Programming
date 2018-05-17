@@ -44,12 +44,12 @@ class SimpleSymbols {
   } 
 
 public static boolean letterIsNotPlusBefore(int x, char[] charArray) {
-	System.out.println("Letter Before charArray["+x+"] is "+charArray[x-1]+", therefore "+(charArray[x-1]!='+'));
+	//System.out.println("Letter Before charArray["+x+"] is "+charArray[x-1]+", therefore "+(charArray[x-1]!='+'));
 	return charArray[x-1]!='+';
 }
 
 public static boolean letterIsNotPlusAfter(int x, char[] charArray) {
-	System.out.println("Letter After charArray["+x+"] is "+charArray[x+1]+", therefore "+(charArray[x+1]!='+'));
+	//System.out.println("Letter After charArray["+x+"] is "+charArray[x+1]+", therefore "+(charArray[x+1]!='+'));
 	return charArray[x+1]!='+';
 }
 

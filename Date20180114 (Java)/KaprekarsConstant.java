@@ -24,31 +24,39 @@ import java.util.*;
 import java.io.*;
 
 class KaprekarsConstant {  
-  public static int KaprekarsConstant(int num) { 
-    int counter = 0;
-    int temp = num;
-    do {counter++; temp=maxify(temp)-minify(temp);}while(6174!=temp);
-    return counter;
-  } 
+    public static int KaprekarsConstant(int num) { 
+        int counter = 0;
+        int temp = num;
+        do {
+            counter++;
+            temp=maxify(temp)-minify(temp);
+        }while(6174!=temp);
+        return counter;
+    } 
 
-  public static int minify(int num) {
-  int[] numbers = new int[4];
-  for(int x = 3; x >= 0; x--) {numbers[x] = (int)(num/Math.pow(10,x));num%=(int)Math.pow(10,x);}
-  Arrays.sort(numbers);
-  return numbers[0]*1000+numbers[1]*100+numbers[2]*10+numbers[3];
+    public static int minify(int num) {
+        int[] numbers = new int[4];
+        for(int x = 3; x >= 0; x--) {
+            numbers[x] = (int)(num/Math.pow(10,x));
+            num%=(int)Math.pow(10,x);
+        }
+        Arrays.sort(numbers);
+        return numbers[0]*1000+numbers[1]*100+numbers[2]*10+numbers[3];
+    }
+
+    public static int maxify(int num){
+        int[] numbers = new int[4];
+        for(int x = 3; x >= 0; x--) {
+            numbers[x] = (int)(num/Math.pow(10,x));
+            num%=(int)Math.pow(10,x);
+        }
+        Arrays.sort(numbers);
+        return numbers[3]*1000+numbers[2]*100+numbers[1]*10+numbers[0];
   }
 
-  public static int maxify(int num){
-  int[] numbers = new int[4];
-  for(int x = 3; x >= 0; x--) {numbers[x] = (int)(num/Math.pow(10,x));num%=(int)Math.pow(10,x);}
-  Arrays.sort(numbers);
-  return numbers[3]*1000+numbers[2]*100+numbers[1]*10+numbers[0];
-  }
-
-  public static void main (String[] args) {  
-    // keep this function call here     
-    Scanner s = new Scanner(System.in);
-    System.out.print(KaprekarsConstant(s.nextInt())); 
+    public static void main (String[] args) {  
+        // keep this function call here     
+        Scanner s = new Scanner(System.in);
+        System.out.print(KaprekarsConstant(s.nextInt())); 
   }   
-  
 } 
