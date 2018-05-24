@@ -2,8 +2,10 @@
 
 ### By Sunghyun Cho.
 
-	If there is any unfound error, please let me know :)
-
+*Signiture*
+    Developed by Sunghyun Cho on DD MM YYYY.
+If there is any unfound error, please let me know :)
+***
 ### Problems from...
 
 * mailprogramming.com
