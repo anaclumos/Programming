@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 27 April 2018.
+Developed by Sunghyun Cho on April 27th, 2018.
 
 There is an integer array
 with every element appearing twice.

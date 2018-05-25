@@ -1,6 +1,6 @@
 import math
 '''
-Developed by Sunghyun Cho on 30 April 2018
+Developed by Sunghyun Cho on April 30th, 2018
 
 If an integer is given, find if it is a palindrome.
 Do not change the integer in string form.

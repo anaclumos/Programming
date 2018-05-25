@@ -1,7 +1,7 @@
 /*
 
 FindMedianSortedArrays.java
-Developed by Sunghyun Cho on 15 January 2018.
+Developed by Sunghyun Cho on January 15th, 2018.
 
 Challenge:
 There are two sorted arrays nums1 and nums2 of size m and n respectively.

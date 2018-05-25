@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 23 April 2018.
+Developed by Sunghyun Cho on April 23rd, 2018.
 
 If an integer n if given, find all
 combinations of parentheses with

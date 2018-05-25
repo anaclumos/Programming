@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 3 May 2018.
+Developed by Sunghyun Cho on May 3rd, 2018.
 
 Make a Function that checks one string is a substring of another string.
 '''

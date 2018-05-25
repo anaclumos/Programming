@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 5 May 2018
+Developed by Sunghyun Cho on May 5th, 2018.
 
 Google University Student Internship Interview Question from Mailprogramming.com
 

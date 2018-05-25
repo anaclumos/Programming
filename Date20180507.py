@@ -1,4 +1,6 @@
 '''
+Developed by Sunghyun Cho on May 7th, 2018.
+
 If an integer array & target number is given,
 find the two indices that
 their sum is the target number.

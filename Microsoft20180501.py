@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 1 May 2018
+Developed by Sunghyun Cho on May 1st, 2018.
 
 Microsoft University Student Interview Question from Mailprogramming.com
 

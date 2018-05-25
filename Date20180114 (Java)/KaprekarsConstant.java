@@ -1,7 +1,7 @@
 /*
 
 KaprekarsConstant.java
-Developed by Sunghyun Cho on 14 January 2018.
+Developed by Sunghyun Cho on January 14th, 2018.
 
 Challenge:
 Have the function KaprekarsConstant(num) take the num parameter being passed which

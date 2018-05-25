@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 15 April 2018.
+Developed by Sunghyun Cho on April 15th, 2018.
 
 if an integer array is given, make an array with every element become a multiplication of the other array memebers.
 No devisions, Time Complexity O(n).

@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 9 April 2018.
+Developed by Sunghyun Cho on April 9th, 2018.
 
 if an int array is given, find the maximum sum of continuously increasing set of numbers.
 Time Complexity: O(n).

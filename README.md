@@ -2,7 +2,8 @@
 
 ### By Sunghyun Cho.
 
-    Developed by Sunghyun Cho on DD MM YYYY.
+    Developed by Sunghyun Cho on MM DD, YYYY.
+
 ### Problems from...
 
 * mailprogramming.com

@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 15 April 2018.
+Developed by Sunghyun Cho on April 15th, 2018.
 
 Reverse every word in String.
 ex) 'ABC 123' - 'CBA 321'

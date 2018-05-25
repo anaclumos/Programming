@@ -1,7 +1,7 @@
 /*
 
 TwoSum.java
-Developed by Sunghyun Cho on 15 January 2018.
+Developed by Sunghyun Cho on January 15th, 2018.
 
 Challenge:
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.

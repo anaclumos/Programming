@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 17 May 2018
+Developed by Sunghyun Cho on May 17th, 2018.
 
 Given a collection of intervals, merge all overlapping intervals.
 

@@ -1,6 +1,6 @@
 import math
 '''
-Developed by Sunghyun Cho on 24 April 2018.
+Developed by Sunghyun Cho on April 24th, 2018.
 
 If a positive integer N is given,
 factorize N in prime factors.

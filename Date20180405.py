@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 5 April 2018.
+Developed by Sunghyun Cho on April 5th, 2018.
 
 Every alphabet can be written in number like following.
 a = 1, b = 2, ... y = 25, z = 26.

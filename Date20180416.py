@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on 16 April 2018.
+Developed by Sunghyun Cho on April 16th, 2018.
 
 Find the sum of all even fibonacci numbers smaller than the input.
 

@@ -1,7 +1,7 @@
 /*
 
 SimpleSymbols.java
-Developed by Sunghyun Cho on 14 January 2018.
+Developed by Sunghyun Cho on January 14th, 2018.
 
 Challenge:
 Using the Java language, have the function SimpleSymbols(str) take the str parameter being passed and determine
