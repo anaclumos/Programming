@@ -3,6 +3,8 @@ Developed by Sunghyun Cho on May 27th, 2018.
 
 Thanos snapped his finger, after collecting all six Infinity stones.
 Are you alive?
+
+Everyone should have same result, whenever they input their name.
 '''
 
 def snap(name):
