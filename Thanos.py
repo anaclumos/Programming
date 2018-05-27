@@ -16,5 +16,4 @@ def snap(name):
 while(True):
     print("")
     name = input("Input Full Legal Name: ")
-    print("")
     print(name, "survived." if snap(name) else "died.")
