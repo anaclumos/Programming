@@ -15,22 +15,22 @@ Input: “abbbcedd”
 '''
 
 def findLongestSubstring(line):
-	longest = ""
-	string = ""
-	length = len(line)
-	for x in range(length):
-		string = line[x]
-		for y in range(x+1, length):
-			if line[y] not in string:
-				string = string + line[y]
-			else:
-				if len(longest) < len(string):
-					longest = string
-				else:
-					string = ""
-				break
-	print("Longest substring is \"", longest, "\"")
-	return len(longest)
+    longest = ""
+    string = ""
+    length = len(line)
+    for x in range(length):
+        string = line[x]
+        for y in range(x+1, length):
+            if line[y] not in string:
+                string = string + line[y]
+            else:
+                if len(longest) < len(string):
+                    longest = string
+                else:
+                    string = ""
+                break
+    print("Longest substring is \"", longest, "\"")
+    return len(longest)
 
 line = input("Input : ")
 result = findLongestSubstring(line)
