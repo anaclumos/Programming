@@ -6,7 +6,7 @@
 
 Draws SnowFlake with Python Turtle Graphics
 
-![Snowflake.gif]()
+![Snowflake.gif](https://github.com/anaclumos/Programming/blob/master/Just%20for%20Fun/Snowflake/Snowflake.gif)
 
 ### Code
 
