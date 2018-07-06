@@ -1,17 +1,27 @@
-'''
-Developed by Sunghyun Cho on April 5th, 2018.
+# StringToAlphabets.py
+
+###### Developed by Sunghyun Cho on April 5th, 2018.
+
+### Problem
 
 Every alphabet can be written in number like following.
-a = 1, b = 2, ... y = 25, z = 26.
-if a string with integer values inside is given,
+
+	a = 1, b = 2, ... y = 25, z = 26.
+
+If a string with integer values inside is given,
 find out how many interpretations can be made with
 the combinations of the string characters as alpabet.
 
-예)
+### Example
+
+```shell
 input: "111"
 output: 3 // "aaa", "ak", "ka"
-'''
+```
 
+### Code
+
+```python
 class Tree():
     def __init__(self, string, content, parent):
         self.content = content
@@ -35,3 +45,4 @@ array = []
 tree = Tree(str(input("Input Number: ")), "", "")
 print("answer: " + str(len(array)))
 print(array)
+```
