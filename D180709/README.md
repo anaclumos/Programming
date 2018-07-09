@@ -1,6 +1,6 @@
 # D180709.py
 
-###### Developed by Sunghyun Cho on July 6th, 2018.
+###### Developed by Sunghyun Cho on July 9th, 2018.
 
 ### Problem
 
