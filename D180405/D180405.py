@@ -8,8 +8,8 @@ find out how many interpretations can be made with
 the combinations of the string characters as alpabet.
 
 ex)
-input: "111"
-output: 3 // "aaa", "ak", "ka"
+Input : "111"
+Output: 3 // "aaa", "ak", "ka"
 '''
 
 class Tree():
