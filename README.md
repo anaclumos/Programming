@@ -1,8 +1,12 @@
 # Programming
 
-### By Sunghyun Cho.
+#### By Sunghyun Cho.
 
-    Developed by Sunghyun Cho on MM DD, YYYY.
+### Signiture
+
+```
+Developed by Sunghyun Cho on MM DD, YYYY.
+```
 
 ### Problems from...
 
@@ -10,3 +14,4 @@
 * coderbyte.com
 * boj.kr
 * leetcode.com
+* kakaocode.com
