@@ -1,6 +1,6 @@
 # Kakao Practice Q1.py
 
-###### Developed by Sunghyun Cho on July 9th, 2018.
+###### Developed by Sunghyun Cho on August 2nd, 2018.
 
 ### Problem
 
@@ -35,7 +35,7 @@
 
 ```python
 '''
-Developed by Sunghyun Cho on August 1st.
+Developed by Sunghyun Cho on August 2nd.
 '''
 
 #----------------------------------------------------------------

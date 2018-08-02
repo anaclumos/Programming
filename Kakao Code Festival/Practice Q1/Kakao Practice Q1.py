@@ -1,5 +1,5 @@
 '''
-Developed by Sunghyun Cho on August 1st.
+Developed by Sunghyun Cho on August 2nd.
 
 첫 번째 줄에 조건의 개수를 나타내는 정수 n(1 ≤ n ≤ 100)이 주어진다. 다음 줄부터 n개의 줄에 걸쳐 문자열이 입력된다.
 문자열은 각 프렌즈가 원하는 조건이 N~F=0과 같은 형태로 구성되어 있으며, 상세한 조건은 아래와 같다.
