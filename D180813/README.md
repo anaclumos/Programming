@@ -34,9 +34,9 @@ def spiralify(twoDarray):
     colloc = 0
     rowloc = 0
 
-    # Tells the direction where to go.
-    # 0 goes right, 1 goes down, 2 goes left, 3 goes right
     compass = 0
+    # Tells the direction where to go.
+    # 0 goes right, 1 goes down, 2 goes left, 3 goes up
 
     for x in range(collen * rowlen):
 
