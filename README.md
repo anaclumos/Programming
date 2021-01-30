@@ -4,7 +4,7 @@
 
 #### By Sunghyun Cho.
 
-### Signiture
+### Signature
 
 ```
 Developed by Sunghyun Cho on MM DD, YYYY.
